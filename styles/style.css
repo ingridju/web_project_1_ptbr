@@ -12,7 +12,7 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .logo_place_header{
@@ -97,7 +97,7 @@
   min-width: 784px;
   display: flex;
   flex-direction: column;
-  gap: auto;
+  gap: 30px;
 }
 
 .two-columns__paragraph{
@@ -121,7 +121,7 @@
   flex-direction: column;
 }
 
-.digits-title{
+.section-title{
   text-align: center;
   margin: 0 0 20px 0;
   width: 60%;
@@ -130,7 +130,7 @@
   font-weight: bold;
   }
 
-  .digits-subtitle{
+  .section-subtitle{
     text-align: center;
     width: 60%;
     line-height: 34px;
@@ -171,12 +171,11 @@
   .feynman{
     background-color: #f2f2f2;
     height: 790px;
-    margin-top: 100px;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     flex-direction: column;
+    padding-top: 100px;
     border: 0;
   }
 
@@ -227,20 +226,20 @@
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
+    padding: 90px 0 90px 0;
   }
 
-  .kaufan__title_theme_dark{
+  .kaufan-title_theme_dark{
     color: #f2f2f2;
   }
 
-  .kaufman__subtitle_theme_dark{
+  .kaufman-subtitle_theme_dark{
     color: #f2f2f2;
   }
 
   .table_theme_dark{
-    margin-top: 0;
+    margin-top: 90px;
     row-gap: 80px;
-    z-index: 4;
   }
 
   .table__cell_theme_dark{
@@ -249,12 +248,14 @@
 
   .table__heading_theme_dark{
     color: #f2f2f2;
-    z-index:4;
+    position: relative;
+    z-index:1;
   }
 
   .table__text_theme_dark{
     color: #f2f2f2;
-    z-index:4;
+    position: relative;
+    z-index:1;
   }
 
   .kaufman__triangle{
