@@ -1,0 +1,29 @@
+.kaufan-title_theme_dark{
+  z-index: 1;
+  color: #f2f2f2;
+}
+
+.kaufman-subtitle_theme_dark{
+  color: #f2f2f2;
+}
+
+.table_theme_dark{
+  margin-top: 90px;
+  row-gap: 80px;
+}
+
+.table__cell_theme_dark{
+  width: 200px;
+}
+
+.table__heading_theme_dark{
+  color: #f2f2f2;
+  position: relative;
+  z-index:1;
+}
+
+.table__text_theme_dark{
+  color: #f2f2f2;
+  position: relative;
+  z-index:1;
+}
