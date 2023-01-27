@@ -3,6 +3,6 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/contact-form/contact-form.css);
-@import url(../blocks/content/__theme/content__theme_dark.css);
+@import url(../blocks/content/__theme_dark/content__theme_dark.css);
 @import url(../blocks/content/__link/content__link.css);
 @import url(../blocks/footer/__link/footer__link.css);
