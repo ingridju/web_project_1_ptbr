@@ -315,6 +315,15 @@ font-family: 'Helvetica Neue', Arial, sans-serif;
   padding: 90px 0 90px 0;
 }
 
+.kaufman__title_theme_dark{
+  z-index: 1;
+  color: #f2f2f2;
+}
+
+.kaufman__subtitle_theme_dark{
+  color: #f2f2f2;
+}
+
 .kaufman__triangle{
   width: 660px;
   height: 636px;
